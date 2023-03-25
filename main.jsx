@@ -1,6 +1,5 @@
 // import './style.css'
 import { createRoot } from 'react-dom/client'
+import { App } from './src/app'
 
-const root = createRoot(document.getElementById('app'))
-
-root.render(<h1>Hello world from React JS</h1>)
+createRoot(document.getElementById('app')).render(<App />)
