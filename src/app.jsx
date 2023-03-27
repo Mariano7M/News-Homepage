@@ -5,7 +5,7 @@ import Aside from './Components/AsideNews'
 import MoreNews from './Components/MoreNews'
 import Foooter from './Components/Footer'
 
-export default function App() {
+function App() {
 	return (
 		<>
 			<MainLayout>
@@ -18,3 +18,5 @@ export default function App() {
 		</>
 	)
 }
+
+export default App
