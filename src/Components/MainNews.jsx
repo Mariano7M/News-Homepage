@@ -1,6 +1,6 @@
 import './MainNews.css'
 
-export function MainNews() {
+export default function MainNews() {
 	return (
 		<section className='main-news'>
 			<picture className='main-news__img'>

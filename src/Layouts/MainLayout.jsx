@@ -1,27 +1,24 @@
-import { MoreNews } from './../Components/MoreNews'
-import { AsideNews } from './../Components/AsideNews'
-import { MainNews } from './../Components/MainNews'
-import { Header } from './../Components/Header'
 import './MainLayout.css'
+import PropTypes from 'prop-types'
 
-export default function MainLayout() {
+export default function MainLayout({ children }) {
+	const [header, main, aside, more, footer] = children
+
 	return (
 		<>
-			<section className='layout__header'>
-				<Header />
-			</section>
+			<section className='layout__header'>{header}</section>
 			<main className='layout__content'>
 				<section className='content__container'>
-					<MainNews />
-					<aside className='content__aside'>
-						<AsideNews />
-					</aside>
+					{main}
+					<aside className='content__aside'>{aside}</aside>
 				</section>
-				<section className='content__botton-section'>
-					<MoreNews />
-				</section>
+				<section className='content__botton-section'>{more}</section>
 			</main>
-			<footer className='layout__footer'>footer</footer>
+			<section className='layout__footer'>{footer}</section>
 		</>
 	)
+}
+
+MainLayout.propTypes = {
+	children: PropTypes.array,
 }

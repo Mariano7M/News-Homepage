@@ -14,8 +14,12 @@
 }
 
 .layout__footer {
-	background-color: cadetblue;
 	flex: 0 1 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
 }
 
 @media (min-width: 456px) {

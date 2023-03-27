@@ -6,7 +6,7 @@
 }
 
 .header__menu {
-	position: absolute;
+	position: fixed;
 	left: 0;
 	right: 0;
 	top: 0;
@@ -52,6 +52,10 @@
 	background-color: rgb(var(--clr-off-gray));
 	border: none;
 	color: rgb(var(--clr-dark-grayish-blue));
+}
+
+.header__menu-bt--fixed {
+	position: fixed;
 }
 
 @media (min-width: 456px) {

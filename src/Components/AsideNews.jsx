@@ -18,7 +18,7 @@ const asideNews = [
 			'Private funding by VC firms is down 50% YOY. We take a look at what that means.',
 	},
 ]
-export function AsideNews() {
+export default function AsideNews() {
 	return (
 		<section className='aside-news'>
 			<h1 className='aside-news__title'>New</h1>

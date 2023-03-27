@@ -22,6 +22,10 @@
 	color: rgb(var(--clr-off-gray));
 }
 
+.aside-news__item-title:hover {
+	color: rgb(var(--clr-secondary));
+}
+
 .aside-news__item-content {
 	color: rgb(var(--clr-grayish-blue));
 }

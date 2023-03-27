@@ -30,6 +30,10 @@
 	font-weight: 800;
 }
 
+.more-news__item-subtitle:hover {
+	color: rgb(var(--clr-primary));
+}
+
 .more-news__item-content {
 	color: rgb(var(--clr-dark-grayish-blue));
 }

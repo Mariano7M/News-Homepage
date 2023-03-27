@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Header.css'
 
-export function Header() {
+export default function Header() {
 	const [isMenuVisible, setIsMenuVisible] = useState(false)
 
 	function onHandleClick() {
@@ -24,7 +24,10 @@ export function Header() {
 					<li className='menu__list-item'>Categories</li>
 				</ul>
 			</nav>
-			<button className='header__menu-btn'>
+			<button
+				className={`header__menu-btn ${
+					isMenuVisible && 'header__menu-bt--fixed'
+				}`}>
 				<img
 					src={`${
 						isMenuVisible

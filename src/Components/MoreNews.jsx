@@ -21,7 +21,7 @@ const moreNews = [
 	},
 ]
 
-export function MoreNews() {
+export default function MoreNews() {
 	return (
 		<ul className='more-news__items'>
 			{moreNews.map(moreNew => {
