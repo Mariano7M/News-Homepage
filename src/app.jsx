@@ -1,9 +1,9 @@
-import MainLayout from './Layouts/mainLayout'
-import Header from './Components/header'
-import MainNews from './Components/mainNews'
-import Aside from './Components/asideNews'
-import MoreNews from './Components/moreNews'
-import Foooter from './Components/footer'
+import MainLayout from './layouts/mainLayout'
+import Header from './components/header'
+import MainNews from './components/mainNews'
+import Aside from './components/asideNews'
+import MoreNews from './components/moreNews'
+import Foooter from './components/footer'
 
 function App() {
 	return (
