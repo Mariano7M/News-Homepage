@@ -5,4 +5,12 @@ export default defineConfig({
 	base: '/News-Homepage/',
 	plugins: [react()],
 	resolve: ['.js', '.ts', '.tsx', '.jsx'],
+	build: {
+		rollupOptions: {
+			external: [
+				'react', // ignore react stuff
+				'react-dom',
+			],
+		},
+	},
 })
