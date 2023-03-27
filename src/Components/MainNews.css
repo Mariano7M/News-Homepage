@@ -39,6 +39,10 @@
 	color: rgb(var(--clr-off-gray));
 }
 
+.main-news__btn:hover {
+	background-color: rgb(var(--clr-very-dark-blue));
+}
+
 @media (min-width: 456px) {
 	.main-news__container {
 		flex-direction: row;
