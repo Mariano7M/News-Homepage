@@ -1,3 +1,5 @@
+import { AsideNews } from './../Components/AsideNews'
+import { MainNews } from './../Components/MainNews'
 import { Header } from './../Components/Header'
 import './MainLayout.css'
 
@@ -9,8 +11,10 @@ export default function MainLayout() {
 			</section>
 			<main className='layout__content'>
 				<section className='content__container'>
-					<section className='content__main'></section>
-					<aside className='content__aside'></aside>
+					<MainNews />
+					<aside className='content__aside'>
+						<AsideNews />
+					</aside>
 				</section>
 				<section className='content__botton-section'></section>
 			</main>
