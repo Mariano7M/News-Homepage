@@ -2,6 +2,7 @@
 	background-color: rgb(var(--clr-very-dark-blue));
 	padding-top: 30px;
 	padding-inline: 25px;
+	margin: 40px 0;
 }
 
 .aside-news__title {
@@ -28,5 +29,6 @@
 @media (min-width: 456px) {
 	.aside-news {
 		min-width: 400px;
+		margin: 0;
 	}
 }

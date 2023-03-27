@@ -54,10 +54,6 @@
 		flex: 2 1 auto;
 	}
 
-	.main-news__content-wrapper {
-		flex-direction: row;
-	}
-
 	.main-news__content {
 		flex: 0 1 auto;
 	}
