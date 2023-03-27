@@ -1,6 +1,6 @@
 import './main-layout.css'
-import PropTypes from 'prop-types'
 
+// eslint-disable-next-line react/prop-types
 function MainLayout({ children }) {
 	const [header, main, aside, more, footer] = children
 
@@ -17,10 +17,6 @@ function MainLayout({ children }) {
 			<section className='layout__footer'>{footer}</section>
 		</>
 	)
-}
-
-MainLayout.propTypes = {
-	children: PropTypes.array,
 }
 
 export default MainLayout
