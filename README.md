@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/Mariano7M/UPDATE_THIS)
-- Live Site URL: [GitHub page](https://mariano7m.github.io/UPDATE_THIS/)
+- Solution URL: [GitHub Repository](https://github.com/Mariano7M/News-Homepage)
+- Live Site URL: [GitHub page](https://mariano7m.github.io/News-Homepage/)
 
 ## My process
 
