@@ -1,0 +1,13 @@
+.layout__header {
+  flex: 0 1 auto; 
+}
+
+.layout__content {
+  background-color: antiquewhite;
+  flex: 1 1 auto;
+}
+
+.layout__footer {
+  background-color: cadetblue;
+  flex: 0 1 40px;
+}

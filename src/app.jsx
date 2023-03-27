@@ -1,5 +1,9 @@
-export default function App() {
-	const message = 'Hello from React JS'
+import MainLayout from './Layouts/MainLayout'
 
-	return <h1>{message}</h1>
+export default function App() {
+	return (
+		<>
+			<MainLayout className='app' />
+		</>
+	)
 }
