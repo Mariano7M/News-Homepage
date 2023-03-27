@@ -7,10 +7,12 @@ export default defineConfig({
 	resolve: ['.js', '.ts', '.tsx', '.jsx'],
 	build: {
 		rollupOptions: {
-			external: [
-				'react', // ignore react stuff
-				'react-dom',
-			],
+			external: ['react'],
+			output: {
+				globals: {
+					react: 'react',
+				},
+			},
 		},
 	},
 })
