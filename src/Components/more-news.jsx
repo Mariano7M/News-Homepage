@@ -1,7 +1,7 @@
-import './MoreNews.css'
-import retroPcs from '../Assets/Images/image-retro-pcs.jpg'
-import topLaptops from '../Assets/Images/image-top-laptops.jpg'
-import gamingGrowth from '../Assets/Images/image-gaming-growth.jpg'
+import './more-news.css'
+import retroPcs from '../assets/images/image-retro-pcs.jpg'
+import topLaptops from '../assets/images/image-top-laptops.jpg'
+import gamingGrowth from '../assets/images/image-gaming-growth.jpg'
 
 const moreNews = [
 	{

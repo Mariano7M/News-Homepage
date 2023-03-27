@@ -1,4 +1,4 @@
-import './MainLayout.css'
+import './main-layout.css'
 import PropTypes from 'prop-types'
 
 export default function MainLayout({ children }) {

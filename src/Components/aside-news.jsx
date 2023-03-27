@@ -1,4 +1,4 @@
-import './AsideNews.css'
+import './aside-news.css'
 const asideNews = [
 	{
 		id: '01',

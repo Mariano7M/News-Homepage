@@ -1,6 +1,6 @@
-import './MainNews.css'
-import imageWeb3Desktop from '../Assets/Images/image-web-3-desktop.jpg'
-import imageWeb3Mobile from '../Assets/Images/image-web-3-mobile.jpg'
+import './main-news.css'
+import imageWeb3Desktop from '../assets/images/image-web-3-desktop.jpg'
+import imageWeb3Mobile from '../assets/images/image-web-3-mobile.jpg'
 
 export default function MainNews() {
 	return (
