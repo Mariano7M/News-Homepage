@@ -1,7 +1,7 @@
 import './main-layout.css'
 import PropTypes from 'prop-types'
 
-export default function MainLayout({ children }) {
+function MainLayout({ children }) {
 	const [header, main, aside, more, footer] = children
 
 	return (
@@ -22,3 +22,5 @@ export default function MainLayout({ children }) {
 MainLayout.propTypes = {
 	children: PropTypes.array,
 }
+
+export default MainLayout
