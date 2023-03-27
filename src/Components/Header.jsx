@@ -15,7 +15,7 @@ export function Header() {
 				src='/assets/images/logo.svg'
 				alt='This is the logo of the news homapage'
 			/>
-			<nav className={`header__menu ${isMenuVisible && 'header__menu--hide'}`}>
+			<nav className={`header__menu ${!isMenuVisible && 'header__menu--hide'}`}>
 				<ul className='menu__list'>
 					<li className='menu__list-item'>Home</li>
 					<li className='menu__list-item'>New</li>
@@ -28,8 +28,8 @@ export function Header() {
 				<img
 					src={`${
 						isMenuVisible
-							? '/assets/images/icon-menu.svg'
-							: '/assets/images/icon-menu-close.svg'
+							? '/assets/images/icon-menu-close.svg'
+							: '/assets/images/icon-menu.svg'
 					}`}
 					alt='This is the button menu that is shown on mobile devices'
 					onClick={onHandleClick}
