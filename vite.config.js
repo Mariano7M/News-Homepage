@@ -7,7 +7,7 @@ export default defineConfig({
 	resolve: ['.js', '.ts', '.tsx', '.jsx'],
 	build: {
 		rollupOptions: {
-			external: ['react'],
+			external: ['react', 'react/jsx-runtime', 'react-dom'],
 			output: {
 				globals: {
 					react: 'react',
