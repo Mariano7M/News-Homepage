@@ -4,15 +4,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
 	base: '/News-Homepage/',
 	plugins: [react()],
-	resolve: ['.js', '.ts', '.tsx', '.jsx'],
-	build: {
-		rollupOptions: {
-			external: ['react', 'react/jsx-runtime', 'react-dom'],
-			output: {
-				globals: {
-					react: 'react',
-				},
-			},
-		},
-	},
 })

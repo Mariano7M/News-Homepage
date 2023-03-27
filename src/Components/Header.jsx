@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './Header.css'
-import logo from '../assets/images/logo.svg'
-import iconMenu from '../assets/images/icon-menu.svg'
-import iconMenuClose from '../assets/images/icon-menu-close.svg'
+import logo from '../Assets/Images/logo.svg'
+import iconMenu from '../Assets/Images/icon-menu.svg'
+import iconMenuClose from '../Assets/Images/icon-menu-close.svg'
 
 export default function Header() {
 	const [isMenuVisible, setIsMenuVisible] = useState(false)
