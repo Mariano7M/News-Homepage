@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import './Header.css'
+import logo from '../assets/images/logo.svg'
+import iconMenu from '../assets/images/icon-menu.svg'
+import iconMenuClose from '../assets/images/icon-menu-close.svg'
 
 export default function Header() {
 	const [isMenuVisible, setIsMenuVisible] = useState(false)
@@ -12,7 +15,7 @@ export default function Header() {
 		<header className='header'>
 			<img
 				className='header__logo'
-				src='/assets/images/logo.svg'
+				src={logo}
 				alt='This is the logo of the news homapage'
 			/>
 			<nav className={`header__menu ${!isMenuVisible && 'header__menu--hide'}`}>
@@ -29,11 +32,7 @@ export default function Header() {
 					isMenuVisible && 'header__menu-bt--fixed'
 				}`}>
 				<img
-					src={`${
-						isMenuVisible
-							? '/assets/images/icon-menu-close.svg'
-							: '/assets/images/icon-menu.svg'
-					}`}
+					src={`${isMenuVisible ? iconMenu : iconMenuClose}`}
 					alt='This is the button menu that is shown on mobile devices'
 					onClick={onHandleClick}
 				/>

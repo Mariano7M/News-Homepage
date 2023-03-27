@@ -1,16 +1,15 @@
 import './MainNews.css'
+import imageWeb3Desktop from '../assets/images/image-web-3-desktop.jpg'
+import imageWeb3Mobile from '../assets/images/image-web-3-mobile.jpg'
 
 export default function MainNews() {
 	return (
 		<section className='main-news'>
 			<picture className='main-news__img'>
-				<source
-					srcSet='/assets/images/image-web-3-mobile.jpg'
-					media='(max-width: 455px)'
-				/>
-				<source srcSet='/assets/images/image-web-3-desktop.jpg' />
+				<source srcSet={imageWeb3Mobile} media='(max-width: 455px)' />
+				<source srcSet={imageWeb3Desktop} />
 				<img
-					src='/assets/images/image-web-3-desktop.jpg'
+					src={imageWeb3Desktop}
 					alt='This is the image of the new web 3.0'
 				/>
 			</picture>
