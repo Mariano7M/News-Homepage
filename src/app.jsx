@@ -1,4 +1,4 @@
-import MainLayout from './layouts/mainlayout'
+import MainLayout from './layouts/main-layout'
 import Header from './components/header'
 import MainNews from './components/mainNews'
 import Aside from './components/asideNews'
