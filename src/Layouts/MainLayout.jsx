@@ -1,3 +1,4 @@
+import { MoreNews } from './../Components/MoreNews'
 import { AsideNews } from './../Components/AsideNews'
 import { MainNews } from './../Components/MainNews'
 import { Header } from './../Components/Header'
@@ -16,7 +17,9 @@ export default function MainLayout() {
 						<AsideNews />
 					</aside>
 				</section>
-				<section className='content__botton-section'></section>
+				<section className='content__botton-section'>
+					<MoreNews />
+				</section>
 			</main>
 			<footer className='layout__footer'>footer</footer>
 		</>
