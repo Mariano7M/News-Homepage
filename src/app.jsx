@@ -3,7 +3,7 @@
 // import MainNews from './components/main-news'
 // import Aside from './components/aside-news'
 // import MoreNews from './components/more-news'
-import Foooter from 'src/components/footer'
+import Foooter from './components/footer'
 
 function App() {
 	return (
