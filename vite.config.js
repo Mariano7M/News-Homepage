@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-// import path from 'path'
+import resolve from '@rollup/plugin-node-resolve'
 
 export default defineConfig({
 	base: '/News-Homepage/',
-	plugins: [react()],
-	resolve: {
-		alias: {
-			'@': 'src',
-		},
-	},
+	plugins: [
+		react(),
+		resolve({
+			extensions: ['.js', '.ts', '.jsx', '.tsx'],
+		}),
+	],
 })
