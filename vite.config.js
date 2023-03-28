@@ -7,14 +7,7 @@ export default defineConfig({
 	plugins: [react()],
 	resolve: {
 		alias: {
-			src: path.resolve('src/'),
-		},
-	},
-	build: {
-		rollupOptions: {
-			output: {
-				sanitizeFileName: true,
-			},
+			src: path.resolve('/src'),
 		},
 	},
 })
